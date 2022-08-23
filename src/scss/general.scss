@@ -1,4 +1,4 @@
-@use "colors.scss" as c;
+@use "colors.scss" as color;
 
 * {
   margin: 0;
@@ -11,6 +11,6 @@
 }
 
 body {
-  background-color: c.$slate-900;
-  color: c.$slate-50;
+  background-color: color.$c8;
+  color: color.$c0;
 }
