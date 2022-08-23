@@ -11,6 +11,18 @@
 }
 
 body {
-  background-color: color.$c8;
+  background-color: #0F172A;
   color: color.$c0;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p, span {
+    color: color.$c3;
+  }
 }
