@@ -21,8 +21,6 @@
       display: flex;
       flex-direction: column;
 
-      font-weight: bold;
-
       .ccci-color {
         padding: 1rem;
         @include mixin.border;
@@ -33,12 +31,13 @@
         margin-top: 0.3rem;
 
         font-size: 0.9rem;
+        font-weight: bold;
       }
 
       .ccci-color-code {
         color: color.$c4;
 
-        font-size: 0.8rem;
+        font-size: 0.7rem;
       }
     }
   }

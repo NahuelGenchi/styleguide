@@ -1,4 +1,5 @@
-@use "colors.scss" as color;
+@use "./colors.scss" as color;
+@use "./fonts.scss" as font;
 
 * {
   margin: 0;
@@ -13,10 +14,12 @@
 body {
   background-color: #0F172A;
   color: color.$c0;
+
+  font-family: font.$montserrat;
   letter-spacing: 1.4px;
 
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   h2 {
