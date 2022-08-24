@@ -1,5 +1,4 @@
 const Color = (props) => {
-  console.log(props);
   return(
     <div className="ccc-item">
       <div className="ccci-color" style={{ backgroundColor: props.colorCode }}></div>

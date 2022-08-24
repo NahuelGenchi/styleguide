@@ -6,7 +6,7 @@ const Header = () => {
   console.log("Hello, World!");
   return(
     <header className="header">
-      <h1>My Website Style Guide</h1>
+      <h1>Styles Guide</h1>
     </header>
   );
 };
