@@ -1,0 +1,19 @@
+@use "../../scss/colors.scss" as color;
+
+.fontlist-container {
+  margin-bottom: 3rem;
+
+  h3 {
+    margin-bottom: 1rem;
+  }
+
+  .f-example {
+    margin-bottom: 1rem;
+
+    .fe-weight {
+      color: color.$c5;
+  
+      font-size: 0.9rem;
+    }
+  }
+}

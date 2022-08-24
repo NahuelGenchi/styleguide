@@ -330,3 +330,8 @@ export const colorsData = [
     ]
   }
 ];
+
+export const fontsData = [
+  "Montserrat",
+  "Poppins"
+];
