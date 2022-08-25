@@ -7,6 +7,7 @@ const Header = () => {
   return(
     <header className="header">
       <h1>Styles Guide</h1>
+      <p>Find the best colors and fonts for your project.</p>
     </header>
   );
 };

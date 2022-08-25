@@ -1,7 +1,7 @@
 @use "../../scss/colors.scss" as color;
 
 .footer {
-  padding: 4rem 0;
+  padding: 3rem 0;
 
   font-size: 0.8rem;
   letter-spacing: normal;
@@ -11,6 +11,29 @@
   .footer-container {
     width: 85vw;
     margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .fc-links {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+
+      a {
+        color: color.$c0;
+        text-decoration: none;
+
+        font-size: 1.5rem;
+
+        transition: transform 0.5s;
+
+        &:hover {
+          transform: translateY(-0.5rem);
+        }
+      }
+    }
     
     .fc-info {
       display: flex;

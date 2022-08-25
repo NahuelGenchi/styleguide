@@ -5,4 +5,5 @@ export { default as ColorList } from "./ColorList/ColorList";
 export { default as Color } from "./Color/Color";
 export { default as FontList } from "./FontList/FontList";
 export { default as Font } from "./Font/Font";
+export { default as LinkIcon } from "./LinkIcon/LinkIcon";
 export { default as Footer } from "./Footer/Footer";
