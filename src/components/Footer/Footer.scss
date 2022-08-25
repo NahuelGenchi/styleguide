@@ -68,8 +68,14 @@
       .fc-info {
         flex-direction: row;
         align-items: center;
+        gap: initial;
 
         padding: 0.5rem 0;
+
+        span:first-child::after {
+          content: " | ";
+          margin: 0 1rem;
+        }
       }
     }
   }
