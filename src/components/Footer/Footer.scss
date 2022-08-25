@@ -1,4 +1,5 @@
 @use "../../scss/colors.scss" as color;
+@use "../../scss/mixins.scss" as mixin;
 
 .footer {
   padding: 3rem 0;
@@ -48,6 +49,28 @@
 
     .footer-container {
       width: 70vw;
+      position: relative;
+
+      flex-direction: row;
+      align-items: center;
+
+      .fc-links {
+        position: absolute;
+        right: 0;
+
+        align-items: center;
+
+        a {
+          @include mixin.display-flex;
+        }
+      }
+
+      .fc-info {
+        flex-direction: row;
+        align-items: center;
+
+        padding: 0.5rem 0;
+      }
     }
   }
 }
