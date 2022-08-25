@@ -5,3 +5,9 @@
   margin: 0 auto;
   padding: 3rem 0 0;
 }
+
+@media screen and (min-width: 960px) {
+  .main {
+    width: 70vw;
+  }
+}

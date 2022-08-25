@@ -1,5 +1,9 @@
 @use "../../scss/colors.scss" as color;
 
+.fontlist-container:last-child {
+  margin-bottom: initial;
+}
+
 .fontlist-container {
   margin-bottom: 3rem;
 

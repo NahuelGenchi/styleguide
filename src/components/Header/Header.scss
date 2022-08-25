@@ -6,3 +6,9 @@
     margin-bottom: 1rem;
   }
 }
+
+@media screen and (min-width: 960px) {
+  .header {
+    width: 70vw;
+  }
+}
