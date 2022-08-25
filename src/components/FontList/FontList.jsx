@@ -3,7 +3,6 @@ import { Font } from "../index";
 import "./FontList.scss";
 
 const FontList = (props) => {
-  console.log(props);
   return(
     <div className="fontlist-container">
       <h3>{props.fontName}</h3>

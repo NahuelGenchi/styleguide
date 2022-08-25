@@ -1,0 +1,21 @@
+@use "../../scss/colors.scss" as color;
+
+.footer {
+  padding: 4rem 0;
+
+  font-size: 0.8rem;
+  letter-spacing: normal;
+
+  background-color: #0a101d;
+
+  .footer-container {
+    width: 85vw;
+    margin: 0 auto;
+    
+    .fc-info {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+}

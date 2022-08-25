@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Main } from "./components";
+import { Header, Main, Footer } from "./components";
 
 import "./scss/general.scss";
 
@@ -8,6 +8,7 @@ export default function App() {
     <>
       <Header/>
       <Main/>
+      <Footer/>
     </>
   );
 }
