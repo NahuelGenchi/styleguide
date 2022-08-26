@@ -53,6 +53,8 @@
 
     .cc-colors {
       width: 85%;
+      //grid-template-columns: repeat(5,minmax(0,1fr));
+      grid-template-columns: repeat(10, minmax(0, 1fr));
     }
   }
 }
