@@ -1,6 +1,7 @@
 .header {
   width: 85vw;
-  margin: 6rem auto 3rem;
+  padding: 9rem 0 6rem;
+  margin: 0 auto;
 
   h1 {
     margin-bottom: 1rem;
@@ -10,5 +11,9 @@
 @media screen and (min-width: 960px) {
   .header {
     width: 70vw;
+
+    p {
+      font-size: 1.5rem;
+    }
   }
 }
